@@ -1,4 +1,4 @@
-FROM python:3.8 
+FROM python:3.8
 RUN git clone https://github.com/elshankhanlari/cutePets.git
 WORKDIR /cutePets
 RUN pip install -r requirements.txt
